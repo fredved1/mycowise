@@ -13,4 +13,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://fredved1.github.io/mycowise/sitemap.xml
+Sitemap: https://www.mycowise.nl/sitemap.xml
