@@ -241,6 +241,11 @@ img { max-width: 100%; height: auto; display: block; }
 .btn-amber:hover { background: #b87a1f; color: #1f2a24; box-shadow: 0 8px 20px rgba(201, 138, 43, .38); }
 .btn-ghost { background: transparent; color: var(--green-600); border-color: var(--line); box-shadow: none; }
 .btn-ghost:hover { background: var(--ghost-hover); color: var(--green-600); box-shadow: none; }
+@media (prefers-color-scheme: dark) {
+  .btn, .btn-amber { box-shadow: 0 2px 8px rgba(0, 0, 0, .4); }
+  .btn:hover, .btn-amber:hover { box-shadow: 0 8px 20px rgba(0, 0, 0, .45); }
+  .btn-ghost, .btn-ghost:hover { box-shadow: none; }
+}
 
 /* ---------- Hero ---------- */
 .hero { padding-top: 92px; padding-bottom: 60px; }
